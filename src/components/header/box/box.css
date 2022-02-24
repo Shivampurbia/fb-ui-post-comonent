@@ -1,0 +1,111 @@
+.box{
+    padding: 4px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+::-webkit-scrollbar{
+    width: 3px;
+    height: 3px;
+}
+::-webkit-scrollbar-track{
+    background-color: gray;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(31, 34, 36);
+    
+}
+.pp{
+    margin-right: .8rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.input{
+    border: none;
+    width: auto;
+    position: fixed;
+    resize: none;
+    font-size: large;
+}
+.input:focus{
+    outline: none;
+}
+.firstbox{
+    margin: 4px;
+    padding-bottom: 1.5rem;
+}
+.colorpalletes{
+    padding-left: .4rem;
+    padding-right: .4rem;
+    padding-bottom: .2rem;
+    display:flex;
+    flex-wrap: nowrap;
+    overflow-x:auto;
+}
+.colorpallete{
+    flex: 0 0 auto;
+    border-radius: 4px;
+    margin-right: 4px;
+    width: .8rem;
+    height: .8rem;
+    cursor: pointer;
+}
+.tagboxes{
+    margin-left: 5px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.tagbox{
+    display: flex;
+    margin-bottom: 8px;
+}
+.tag{
+    width: 100%;
+    display: inline-flex;
+    padding: .3rem;
+    border-radius: 1rem;
+    color: rgb(68, 67, 67);
+    padding-right: 4rem;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.7rem;
+   background-color: rgba(215, 222, 230, 0.425);
+}
+.tag:hover{
+    background-color: rgb(215, 222, 230);
+}
+.gifUploader{
+    margin-left:.5rem;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.842);
+    box-shadow: 2px 2px 7px black;
+    width:14rem;
+    height: 20rem;
+}
+.inputgif{
+    width: 90%;
+    margin: 0.5rem;
+}
+.inputgif:focus{
+    outline: none;
+}
+.gifs{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* resize: vertical; */
+    overflow-x: hidden;
+    overflow-y:scroll;
+    height: 17rem;
+}
+.gif{
+    cursor: pointer;
+    margin-bottom: 4px;
+    margin-left: 12.5px;
+}
+.canclebtn{
+    cursor: pointer;
+}

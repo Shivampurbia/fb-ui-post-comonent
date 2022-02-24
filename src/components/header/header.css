@@ -1,0 +1,26 @@
+.top{
+    background-color:rgba(215, 222, 230, 0.425);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.header{
+    display: flex;
+    padding: 0.3rem;
+    
+}
+.headerElement{
+    cursor: pointer;
+    display: flex;
+    margin-right: 1rem;
+    color: rgb(49, 49, 49);
+    font-size: .7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cross{
+    font-weight:500;
+    cursor: default;
+    color: rgb(54, 53, 53);
+}
