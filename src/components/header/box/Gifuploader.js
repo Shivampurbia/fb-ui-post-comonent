@@ -5,6 +5,10 @@ import { useContextData } from '../../../contexts/Context';
 
 function Gifuploader(){
   const {hideGifPopup,selectedGif,setSelectedGifHandler} = useContextData();
+  const gf = new GiphyFetch('TUM7ETujEEqZLj9Zi8uZG9XLRYmx4pKD')
+  const [input,setInput] = useState("")
+  const [gifData,setGifData] = useState([]);
+  const [gifSearchData,setGifSearchData] = useState([]);
   
     const debounce = (func, delay) => {
       let debounceTimer;
@@ -29,10 +33,7 @@ function Gifuploader(){
 
     }, 1000);
       
-  const gf = new GiphyFetch('TUM7ETujEEqZLj9Zi8uZG9XLRYmx4pKD')
-  const [input,setInput] = useState("")
-  const [gifData,setGifData] = useState([]);
-  const [gifSearchData,setGifSearchData] = useState([]);
+  
   useEffect(()=>{
       async function getdata(){
         const data = []  
