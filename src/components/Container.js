@@ -14,8 +14,8 @@ function Container() {
         <div className='buttons'>
                 <form className='extraButton'>
                     <select>
-                        <option value="Active">Only me</option>
-                        <option value="status">Public</option>
+                        <option value="Only me">Only me</option>
+                        <option value="Public">Public</option>
                     </select>
                 </form>
                 <button className='postButton'>Post</button>
